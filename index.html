@@ -1,85 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Xamizi | Find Rooms Near You</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-<header class="top-bar">
-  <h1>🏠 Xamizi</h1>
-</header>
-
-<!-- INTRO -->
-<section class="section">
-  <h2>Find a room near you</h2>
-  <p class="gentle">
-    Browse affordable long-stay and short-stay rooms in your area.
-  </p>
-</section>
-
-<!-- STAY TYPE CHOICE -->
-<section class="section">
-  <h2>What are you looking for?</h2>
-
-  <a href="location.html?type=long" class="btn-primary">
-    🏠 Long Stay (Monthly)
-  </a>
-
-  <a href="location.html?type=short" class="secondary-btn">
-    🏨 Short Stay (Daily)
-  </a>
-</section>
-
-<!-- SEARCH -->
-<section class="search-box">
-  <input type="text" placeholder="Search area e.g. Soweto, Tembisa">
-
-  <select>
-    <option>Long Stay (Monthly)</option>
-    <option>Short Stay (Daily)</option>
-  </select>
-
-  <select>
-    <option>Any Price</option>
-    <option>Under R2,000</option>
-    <option>R2,000 – R4,000</option>
-    <option>R4,000+</option>
-  </select>
-
-  <a href="location.html" class="btn-primary">
-    View Available Rooms
-  </a>
-</section>
-
-<!-- POPULAR AREAS -->
-<section class="section">
-  <h2>Popular Areas</h2>
-
-  <div class="grid">
-    <a href="location.html" class="card">
-      <h3>Soweto</h3>
-      <p>View rooms in Zola, Orlando, Diepkloof</p>
-    </a>
-
-    <a href="location.html" class="card">
-      <h3>Tembisa</h3>
-      <p>From R2,200 / month</p>
-    </a>
-
-    <a href="location.html" class="card">
-      <h3>Alexandra</h3>
-      <p>Rooms coming soon</p>
-    </a>
-  </div>
-</section>
-
-<footer>
-  © 2025 Xamizi • We’ve Got You
-</footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xamizi</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
